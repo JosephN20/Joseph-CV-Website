@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+nav {
+    background-color: rgb(116, 111, 111);
+    border-bottom: solid medium grey;
+    display: flex;
+    justify-content: right; 
+    padding: 0 10px 0 0;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #023436;
+    background-color: #89bfe1
+}
+
+footer {
+    background-color: #746f6f;
+    padding: 10px;
+    border-top: solid medium grey;
+    display: flex;
+    justify-content: center; 
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.splash {
+    background-color: #6299ca;
+    padding: 200px 0 0 0;
+}
+
+.terryImg{
+    position: absolute;
+    top: 85px;
+    left: 120px;
+    width: 200px;
+}
+
+.compImg{
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    width: 200px;
+    height: 100px;
+    border-radius: 30px ;
+}
+
+.about {
+    text-align: center;
+    background-color: white;
+    padding: 20px 0 0 0;
+}
+.about img{
+    border-radius: 100%;
+}
+.content {
+    background-color: white;
+}
+
+
+h1 {
+    color: #d0cbcf;
+    font-size: 70px;
+    font-family: 'Bad Script', cursive;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    color:  #686370;
+    font-size: 35px;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+
+}
+
+hr {
+    border-top: dashed #746f6f 12px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+}
+
+h3 {
+    color:  #686370;
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+
+}
+
+.three-col {
+    display:grid;
+    padding: 50px 0 100px  0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+
+}
+
+.langCard {
+    box-shadow: 10px 10px #6299ca;
+    background-color: #d0cbcf;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+
+}
+  
+.langContent {
+    padding: 2px 16px;
+    display: flex;
+
+}
+
+
+.langContent li {
+    font-weight: bold;
+    text-align:left;
+}
+
+.langImg {
+    border-radius: 5px 5px 0 0;
+    height: 150px;
+    padding: 15px 0 0 0;
+
+}
+
+
+.lneCard {
+    box-shadow: 10px 10px #6299ca;
+    background-color: #d0cbcf;
+    border-radius: 10px;
+    height:300px;
+    width: 300px;
+}
+  
+.lneContent {
+    padding: 2px 16px;
+    display: flex;
+    justify-content: left;
+    
+
+}
+
+.lneContent dt {
+    font-weight: bold;
+}
+
+.lneContent a {
+    text-decoration: none;
+    color: #982598;
+}
+
+.lneContent a:hover {
+    color: black;
+    background-color:#982598;
+}
+
+.lneImg {
+    border-radius: 5px 5px 0 0;
+    height: 150px;
+    padding: 15px 0 0 0;
+    
+}
+
+.skillsCard {
+    box-shadow: 10px 10px #6299ca;
+    background-color: #d0cbcf;
+    border-radius: 10px;
+    height:300px;
+    width: 300px;
+}
+  
+.skillsContent {
+    padding: 2px 16px;
+    display: flex;
+    justify-content: left;
+}
+.skillsContent {
+    font-weight: bold; 
+    text-align: left;     
+}
+
+.skillsImg {
+    border-radius: 5px 5px 0 0;
+    height: 125px;
+    padding: 15px 0 0 0;
+    
+}
+
+.contact {
+    background-color:  #6299ca;
+
+}
+
+.contact h1 {
+    padding: 150px 0 40px  0;
+}
+
+.contact p {
+    color:  #686370;
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+
+
+}
+
+.cardStyle {
+    box-shadow: 10px 10px #d0cbcf;
+    border-radius: 10px;
+    padding: 50px 0 25px 0;
+    width: 400px;
+    background-color: white;
+    display:flex;
+    justify-content:center;
+}
+
+
+
+.oneCol {
+    display:grid;
+    padding: 50px 0 50px  0px;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+
